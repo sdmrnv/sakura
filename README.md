@@ -8,7 +8,7 @@ The name is a playful portmanteau derived from **SOCket** and **ORAcle**: **SOCO
 
 ### Architecture & Features
 
-*   **Pure C Implementation:** Built on native Linux epoll calls, and low-level proprietary OCI for maximum execution speed and zero overhead.
+*   **Pure C Implementation:** Built on native Linux epoll calls and low-level proprietary OCI for maximum execution speed and zero overhead.
 *   **Socket Multiplexing:** Clients connect via standard sockets to execute SQL commands (DDL, DML, etc.). The proxy translates requests to the Oracle backend and streams responses back to the client.
 *   **Full Stack Provided:** Includes the core server, production Makefiles, system service scripts for starting/stopping the Sakura server, a custom lua-resty module for the OpenResty framework, and sample client implementations written in both C and Lua.
 
