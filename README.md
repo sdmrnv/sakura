@@ -18,4 +18,8 @@ This is an open-source project distributed under the **BSD 2-Clause License**. F
 
 * * *
 
-Regards, sdmrnv
+***
+## Project Resources
+
+- **[Detailed Description (RU/EN)]**(https://homme.io/sakura) — More information.
+- **[Author Profile]**(https://homme.io/sdmrnv) — Read more about the author.
