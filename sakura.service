@@ -1,0 +1,14 @@
+[Unit]
+Description=SAKURA Application Server
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/sakura
+ExecReload=/bin/kill -USR1 sakura
+ExecStop=/bin/kill -s TERM sakura
+Environment="NLS_LANG=AMERICAN_AMERICA.AL32UTF8"
+;Restart=always
+
+[Install]
+WantedBy=multi-user.target
