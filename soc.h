@@ -1,5 +1,3 @@
-soc.h
-
 /*
  * Copyright (C) 2025-2026 sdmrnv
  * All rights reserved.
